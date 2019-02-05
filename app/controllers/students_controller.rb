@@ -22,7 +22,6 @@ class StudentsController < ApplicationController
 
   def index
     @students = Student.all
-    @results = Student.new 
   end
 
   def student_params
